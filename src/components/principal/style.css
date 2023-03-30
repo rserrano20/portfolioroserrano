@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: 'Carter One', cursive;
+  }
+
+  .fondiu{
+    background: rgb(36,135,204);
+    background: linear-gradient(185deg, rgba(36,135,204,1) 37%, rgba(15,17,16,1) 69%);
+  }
+  .black{
+    background: rgb(14, 13, 14);
+
+  }
+  .lineUp {
+    animation: 2s anim-lineUp ease-out infinite;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
